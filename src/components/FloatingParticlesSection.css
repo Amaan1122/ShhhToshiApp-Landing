@@ -1,0 +1,75 @@
+.donation-page {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: #000000; /* black */
+    color: #FEDA5E; /* soft yellow text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .donation-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .particle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FDB80A; /* yellow-orange */
+    box-shadow: 0 0 10px #FEC31E; /* bright yellow glow */
+  }
+  
+  .donation-card {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.05); /* glassy effect */
+    padding: 40px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid #FDB60C; /* accent border */
+  }
+  
+  .donation-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #FDB80A; /* warm yellow title */
+  }
+  
+  .donation-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #FEDA5E; /* soft readable yellow */
+  }
+  
+  .donation-wallet {
+    font-family: monospace;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: #0456FD; /* vibrant blue wallet */
+  }
+  
+  .donate-button {
+    background: #B83508; /* bold red-orange */
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .donate-button:hover {
+    background: #FDB60C; /* warm yellow on hover */
+    color: #000000;
+  }
+  
